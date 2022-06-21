@@ -8,7 +8,6 @@
 import UIKit
 
 class ActorListViewController: UICollectionViewController {
-    
     private var actors: [ActorModel] = []
 
     override func viewDidLoad() {

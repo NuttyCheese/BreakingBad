@@ -8,7 +8,6 @@
 import UIKit
 
 class ActorViewController: UIViewController {
-
     @IBOutlet weak var portrayedLabel: UILabel!
     @IBOutlet weak var actorImage: UIImageView!
     @IBOutlet weak var nicknameLabel: UILabel!
@@ -17,7 +16,6 @@ class ActorViewController: UIViewController {
     var actor: ActorModel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         fetchData()
     }
 

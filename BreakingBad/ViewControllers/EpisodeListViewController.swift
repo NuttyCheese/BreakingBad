@@ -8,7 +8,6 @@
 import UIKit
 
 class EpisodeListViewController: UITableViewController {
-    
     private var episodes: [EpisodesModel] = []
 
     override func viewDidLoad() {

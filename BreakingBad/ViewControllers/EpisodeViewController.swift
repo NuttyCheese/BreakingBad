@@ -8,7 +8,6 @@
 import UIKit
 
 class EpisodeViewController: UIViewController {
-
     @IBOutlet weak var seasonLabel: UILabel!
     @IBOutlet weak var charactersLabel: UILabel!
     
@@ -16,9 +15,7 @@ class EpisodeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         fetchData()
-        
     }
     
     private func fetchData() {
